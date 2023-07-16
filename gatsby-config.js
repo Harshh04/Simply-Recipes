@@ -12,6 +12,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 module.exports = {
+  pathPrefix: "/Simply-Recipes",
   siteMetadata: {
     title: `Simply Recipes`,
     description: `Nice and clean recipes site`,
